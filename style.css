@@ -1,0 +1,25 @@
+body {
+  animation: colorChange 7s infinite alternate;
+  align-items: center;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #d7e1f7; /* Red at the start */
+  }
+  25% {
+    background-color: #788ebf; /* Yellow */
+  }
+  50% {
+    background-color: rgb(115, 150, 201) /* Green */
+  }
+  75% {
+    background-color: rgb(64, 129, 181); /* Blue */
+  }
+  100% {
+    background-color: rgb(55, 104, 149); /* Magenta at the end */
+  }
+}
+
+
+
