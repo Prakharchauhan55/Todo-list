@@ -18,7 +18,9 @@ btn.addEventListener("click",()=>{
 // let delbtns = document.createElement('button');
 ul.addEventListener("click",(event)=>{
     if(event.target.nodeName == "BUTTON"){
-        console.log("delete");
+        let listItem = event.target.parentElement;
+        console.log("deleted");
+        listItem.remove()
     }   
     else{
         console.log("don't delete");
